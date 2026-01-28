@@ -79,7 +79,7 @@ struct HomeView: View {
                                     Button {
                                         selectedSubscription = subscription
                                     } label: {
-                                        Label("Düzenle", systemImage: "pencil")
+                                        Label("Düzenle Ed", systemImage: "pencil")
                                     }
                                     .tint(.blue) // Mavi renk
                                 }
