@@ -1,0 +1,40 @@
+Subscription Hunter 
+Subscription Hunter, dijital aboneliklerin finansal yönetimini optimize etmek amacıyla geliştirilmiş, SwiftUI ve SwiftData tabanlı bir iOS verimlilik uygulamasıdır. Yazılım mimarisi, yüksek performanslı veri kalıcılığı ve reaktif kullanıcı arayüzü prensipleri üzerine inşa edilmiştir.
+
+🛠 Teknik Mimari ve Stack
+Uygulama, modern iOS ekosistemindeki en güncel teknolojiler kullanılarak geliştirilmiştir:
+
+UI Framework: Deklaratif tasarım yaklaşımı ile SwiftUI.
+
+Persistency Layer: Veri modellerinin yerel olarak saklanması ve yönetilmesi için yeni nesil SwiftData framework'ü.
+
+Architecture: Kod sürdürülebilirliği ve test edilebilirliği için MVVM tasarım kalıbı.
+
+Local Notifications: Ödeme döngülerinin takibi için UserNotifications entegrasyonu.
+
+✨ Öne Çıkan Özellikler
+Dynamic UX: Kullanıcıların her abonelik için özelleştirilmiş SFSymbols ikonları ve renk paletleri atayabilmesini sağlayan esnek arayüz.
+
+Advanced Interaction: Akıcı bir kullanıcı deneyimi için sağa kaydırma ile Edit (Düzenleme) ve sola kaydırma ile Delete (Silme) fonksiyonlarını destekleyen SwipeActions mimarisi.
+
+Smart Scheduling: Abonelik yenilenme tarihlerine göre otomatik olarak planlanan yerel bildirimler.
+
+Contextual UI: İkon renklerinin dinamik olarak değiştirilmesi için kurgulanmış profesyonel ContextMenu ve Sheet tabanlı renk seçim sistemleri.
+
+Dark Mode Support: @AppStorage kullanılarak tüm uygulama genelinde senkronize edilen dinamik renk teması yönetimi.
+
+Proje Yapısı
+├── SubscriptionManager/
+│   ├── AddSubscriptionView.swift  # Veri giriş ve düzenleme mantığı
+│   ├── AnalysisView.swift         # Finansal veri analiz ekranı
+│   ├── ContentView.swift          # Ana liste ve navigasyon hiyerarşisi
+│   ├── NotificationManager.swift  # Bildirim zamanlama motoru
+│   ├── Subscription.swift         # SwiftData model tanımı
+
+Kurulum
+
+Repoyu klonlayın: git clone https://github.com/simgebenzerr/SubscriptionManagerApp.git.
+
+SubscriptionManager.xcodeproj dosyasını Xcode ile açın.
+
+Target olarak iOS 17.0+ seçili olduğundan emin olun ve Run edin.
