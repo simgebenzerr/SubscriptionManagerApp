@@ -1,6 +1,6 @@
 Subscription Hunter 
 Subscription Hunter, dijital aboneliklerin finansal yönetimini optimize etmek amacıyla geliştirilmiş, SwiftUI ve SwiftData tabanlı bir iOS verimlilik uygulamasıdır. Yazılım mimarisi, yüksek performanslı veri kalıcılığı ve reaktif kullanıcı arayüzü prensipleri üzerine inşa edilmiştir.
-## Screenshots
+
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/cab2d0ef-cacc-4ae1-80b1-ca9d808db448" width="180" alt="Home Screen" />
