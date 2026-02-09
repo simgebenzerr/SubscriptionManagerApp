@@ -12,7 +12,7 @@ Subscription Hunter, dijital aboneliklerin finansal yönetimini optimize etmek a
   <img src="https://github.com/user-attachments/assets/d3cfc37a-50c0-47d8-be05-c899d20fd9d8" width="180" alt="Dark Mode" />
 </p>
 
-🛠 Teknik Mimari ve Stack
+Teknik Mimari ve Stack
 Uygulama, modern iOS ekosistemindeki en güncel teknolojiler kullanılarak geliştirilmiştir:
 
 UI Framework: Deklaratif tasarım yaklaşımı ile SwiftUI.
@@ -23,7 +23,7 @@ Architecture: Kod sürdürülebilirliği ve test edilebilirliği için MVVM tasa
 
 Local Notifications: Ödeme döngülerinin takibi için UserNotifications entegrasyonu.
 
-✨ Öne Çıkan Özellikler
+ Öne Çıkan Özellikler
 Dynamic UX: Kullanıcıların her abonelik için özelleştirilmiş SFSymbols ikonları ve renk paletleri atayabilmesini sağlayan esnek arayüz.
 
 Advanced Interaction: Akıcı bir kullanıcı deneyimi için sağa kaydırma ile Edit (Düzenleme) ve sola kaydırma ile Delete (Silme) fonksiyonlarını destekleyen SwipeActions mimarisi.
